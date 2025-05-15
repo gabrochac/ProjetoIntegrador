@@ -1890,7 +1890,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #8B5A2B;
 		display: block;
 		font-size: 0.8em;
 		font-weight: 600;
@@ -2917,6 +2917,14 @@ input, select, textarea {
 
 		.contact-method h3 {
 			margin: 0 0 0.5em 0;
+			color: #8B5A2B;
+			display: block;
+			font-size: 0.8em;
+			font-weight: 600;
+			letter-spacing: 0.25em;
+			margin: 0 0 1em 0;
+			text-transform: uppercase;
+
 		}
 
 /* Spotlights */
@@ -3481,6 +3489,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
+			
 			height: 75vh;
 			min-height: 30em;
 			max-height: 50em;
@@ -3986,7 +3995,7 @@ input, select, textarea {
   /* Botões */
   .button {
 	box-shadow: inset 0 0 0 2px var(--marrom-medio) !important;
-	color: var(--marrom-medio) !important;
+	color: var(--marrom-escuro) !important;
   }
   
   .button:hover {
@@ -4033,6 +4042,7 @@ input, select, textarea {
   /* Menu */
   #menu {
 	background: rgba(92, 64, 51, 0.95) !important;
+	color:var(--creme)
   }
   
   /* Pirâmide Olfativa (para páginas de produtos) */
@@ -4076,3 +4086,27 @@ input, select, textarea {
   .texto-marrom {
 	color: var(--marrom-escuro);
   }
+
+  #menu-nav {
+	color:var(--marrom-claro);
+  }
+
+   .terrosa-cor {
+	color:var(--marrom-claro);
+  }
+
+  #massa-libero {
+	color:var(--marrom-medio);
+  }
+
+#butao-login {
+	color: var(--creme) !important;
+}
+
+.descubra-a-arte {
+	color:var(--creme);
+}
+
+.frases-curtas {
+	color:#e4d1a6;
+}
